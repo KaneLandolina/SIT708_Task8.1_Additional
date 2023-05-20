@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <Button
+        android:id="@+id/buttonPlayAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Audio From Phone" />
+
+    <Button
+        android:id="@+id/buttonUseCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Camera" />
+
+    <Button
+        android:id="@+id/buttonAudioUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Audio from Url" />
+
+    <Button
+        android:id="@+id/buttonVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Video From The Internet" />
+</LinearLayout>
